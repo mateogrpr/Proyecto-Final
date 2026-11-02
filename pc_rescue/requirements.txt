@@ -1,0 +1,11 @@
+# PC Rescue - Dependencias
+# psutil: biblioteca para leer métricas del sistema (CPU, RAM, disco)
+psutil
+# speedtest-cli: medición real de velocidad de Internet y latencia
+speedtest-cli
+# pillow: soporte y manipulación de iconos e imágenes multiplataforma
+pillow
+# WinTmp: lectura de temperaturas de CPU/GPU via LibreHardwareMonitor (pythonnet)
+# Nota: requiere permisos de admin para lectura de sensores de CPU.
+# Si no tiene admin, el sistema usa Win32_PerfFormattedData_Counters_ThermalZoneInformation como respaldo.
+WinTmp
